@@ -1,3 +1,19 @@
+$background-color: #060;
+
 .test  {
   color: red;
+}
+
+.white-text{
+  color: white;
+}
+
+.nav-tabs {
+  border-color: transparent;
+}
+
+.color-background {
+  background: rgba(0, 0, 0, 0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
 }
