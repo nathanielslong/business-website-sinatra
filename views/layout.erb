@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   </head>
   <body>
-    <%= erb :header %>
-    <h1 class="test">Linking test</h1>
-    <%= yield %>
-    <%= erb :footer %>
+    <div class="body-background">
+      <%= erb :header %>
+      <%= yield %>
+      <%= erb :footer %>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="/js/bootstrap.js"></script>
   </body>
