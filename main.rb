@@ -17,7 +17,7 @@ def email_sending
 end
 
 get "/" do
-  erb :home
+  erb :index
 end
 
 post "/contact-us" do
