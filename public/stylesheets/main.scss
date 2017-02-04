@@ -1,46 +1,27 @@
-$text-color: #cd764d;
-
-html, body {
+.cover {
+  background: url(../images/drilling-rig.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   font-family: "Lato", sans-serif;
 }
 
-.height-full {
-  height: 95vh;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-.body-background {
-  background: url(http://cdn.vanoord.com/sites/default/files/ff67344.jpg);
-  background-size: cover;
-  background-position: center;
+body {
 }
 
-.text-against-background {
-  color: $text-color;
-  font-size: 2em;
+.footer {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  height: 5%;
+  ul, a {
+    color: #000;
+  }
 }
 
-.test  {
-  color: red;
-}
-
-.white-text{
-  color: white;
-}
-
-.nav-tabs {
-  border-color: transparent;
-}
-
-.color-background {
-  background: rgba(0, 0, 0, 0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
-  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-}
-
-.jumbotron {
-  background: rgba(256,256,256,0.2);
-  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-  height: 70%;
-}
 
