@@ -20,6 +20,10 @@ get "/" do
   erb :index
 end
 
+get "/about_us" do
+  erb :about_us
+end
+
 post "/contact-us" do
   p params
   email_sending

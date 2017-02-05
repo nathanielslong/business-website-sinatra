@@ -1,17 +1,15 @@
-.cover {
-  background: url(../images/drilling-rig.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  font-family: "Lato", sans-serif;
-}
-
 html {
   position: relative;
   min-height: 100%;
 }
 
-body {
+.cover {
+  background: url(../images/drilling-rig.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  z-index: -1;
 }
 
 .footer {
@@ -23,5 +21,3 @@ body {
     color: #000;
   }
 }
-
-
