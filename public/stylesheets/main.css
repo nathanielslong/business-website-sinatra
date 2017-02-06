@@ -7,8 +7,7 @@ html {
   background-size: cover;
   background-position: center;
   height: 100%;
-  font-family: "Lato", sans-serif;
-  z-index: -1; }
+  font-family: "Lato", sans-serif; }
 
 .footer {
   position: absolute;
@@ -19,8 +18,9 @@ html {
     color: #000; }
 
 .index-font {
-  font-size: 3em;
-  text-shadow: -2px 0px #000, 0px 2px 3px #333;
+  font-size: 4em;
+  color: #8ff;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
   display: none; }
 
 .pgtwo-font {
