@@ -1,4 +1,4 @@
-def email_sending
+def send_email
   user_name = "#{params["fname"]} #{params["lname"]}"
   user_email = params["email"]
   user_phone = params["phone"]

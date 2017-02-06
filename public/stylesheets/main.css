@@ -34,4 +34,9 @@ html {
 .captions {
   background: rgba(255, 255, 255, 0.7); }
 
+.hide-bullets {
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 20px; }
+
 /*# sourceMappingURL=main.css.map */
