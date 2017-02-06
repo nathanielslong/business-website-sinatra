@@ -34,6 +34,9 @@ html {
 .captions {
   background: rgba(255, 255, 255, 0.7); }
 
+.gallery {
+  background: rgba(255, 255, 255, 0.2); }
+
 .hide-bullets {
   list-style: none;
   margin-left: -40px;
